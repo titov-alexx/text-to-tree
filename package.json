@@ -1,5 +1,5 @@
 {
-  "name": "build-tree",
+  "name": "text-to-tree",
   "version": "0.1.0",
   "private": true,
   "type": "module",

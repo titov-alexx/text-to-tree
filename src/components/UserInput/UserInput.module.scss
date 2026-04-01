@@ -1,0 +1,16 @@
+.userInput {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: #d4d4d4;
+  outline: none;
+
+  &:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+}

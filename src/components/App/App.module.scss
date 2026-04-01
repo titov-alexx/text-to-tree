@@ -1,0 +1,23 @@
+.page {
+  min-height: 100vh;
+  background: #1c1c1c;
+  color: #d4d4d4;
+  font-family: 'Inter', sans-serif;
+}
+
+.content {
+  padding: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+.inputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}

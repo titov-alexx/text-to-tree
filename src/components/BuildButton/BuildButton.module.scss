@@ -1,0 +1,28 @@
+.buildBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  background: #238636;
+  color: #ffffff;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+
+  &:hover:not(:disabled) {
+    background: #2ea043;
+  }
+
+  &:active:not(:disabled) {
+    background: #1a7f37;
+  }
+
+  &:disabled {
+    background: #238636;
+    color: #ffffff;
+    opacity: 0.4;
+    cursor: default;
+  }
+}
